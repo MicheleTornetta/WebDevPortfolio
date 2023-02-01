@@ -22,9 +22,9 @@ const styles = {
 
 // In `Card`, we can assign a style from an object by using curly braces
 // We are assigning the card, heading, and content all from our `style` object
-function Card() {
+function card() {
   return (
-    <div style={styles.Card}>
+    <div style={styles.card}>
       <div style={styles.heading}>Lorem ipsum dolor</div>
       <div style={styles.content}>
         will put something here...
@@ -33,4 +33,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default card;
