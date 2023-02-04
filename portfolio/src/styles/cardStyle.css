@@ -1,3 +1,11 @@
+:root {
+  --BG: #FBEEC1;
+  --MC: #659DBD;
+  --accent1: #DAAD86;
+  --accent2: #8D8741;
+  --text: #333333;
+  } 
+
 .header {
   background: #f9b713;
   height: 200px;
@@ -10,3 +18,5 @@
   color: white;
   font-size: 3rem;
 }
+
+

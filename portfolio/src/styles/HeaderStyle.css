@@ -1,0 +1,20 @@
+:root {
+  --BG: #FBEEC1;
+  --MC: #659DBD;
+  --accent1: #DAAD86;
+  --accent2: #8D8741;
+  --text: #333333;
+  } 
+
+.header {
+  background: var(--BG);
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+  color: var(--text);
+  font-size: 3rem;
+}

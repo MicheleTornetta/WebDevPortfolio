@@ -1,0 +1,44 @@
+:root {
+  --BG: #FBEEC1;
+  --MC: #659DBD;
+  --accent1: #DAAD86;
+  --accent2: #8D8741;
+  --text: #333333;
+  } 
+
+.nav {
+  background: var(--MC);
+  height: 50px;
+  text-align: center; 
+}
+
+.nav li {
+  color: var(--accent1);
+  text-align: center; 
+}
+
+a:link {
+  color: var(--accent1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--accent1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--accent1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+

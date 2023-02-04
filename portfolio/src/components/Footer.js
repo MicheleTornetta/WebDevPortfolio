@@ -1,14 +1,16 @@
 import React from 'react';
+import '../styles/FooterStyle.css';
+
 function Footer() {
     return (
         <div className="card border-0 sticky-bottom">
             <div className="card-header">
-                Made with ☕ and 🥧
+                                
             </div>
             <div className="card-body">
                 <blockquote className="blockquote mb-0">
-                    <p>Every day, once a day, give yourself a present. Don't plan it, don't wait for it, just let it happen. It could be a new shirt at the men's store, a catnap in your office chair or two cups of good hot black coffee.</p>
-                    <footer className="blockquote-footer">FBI Special Agent Dale Cooper <cite title="Source Title">Twin Peaks</cite></footer>
+                    <p>Put somthing here</p>
+                    <footer className="blockquote-footer">signature<cite title="Source Title">Title</cite></footer>
                 </blockquote>
             </div>
         </div>
