@@ -1,7 +1,11 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './styles/Header.css';
+import './styles/card.css';
+import './styles/NavBar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Card from './components/card';
 
@@ -10,7 +14,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Navbar />
+      <NavBar />
       <Card />
       <Card />
       <Card />
