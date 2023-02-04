@@ -7,9 +7,7 @@ export default function Contact() {
       <form>
       <h1>Contact Me</h1>
         <div>
-          <input>
-            Where someone enters input
-            </input>
+          <input/>          
         </div>
         <Button variant="send">Send</Button>
       </form>

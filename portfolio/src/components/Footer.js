@@ -3,7 +3,7 @@ import '../styles/FooterStyle.css';
 
 function Footer() {
     return (
-        <div className="card border-0 sticky-bottom">
+        <div className="card border-0">
             <div className="card-header">
                                 
             </div>
