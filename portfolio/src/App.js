@@ -5,23 +5,33 @@ import './styles/HeaderStyle.css';
 import './styles/cardStyle.css';
 import './styles/NavbarStyle.css';
 import './styles/FooterStyle.css';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Card from './components/card';
+import AboutPage from './components/pages/About';
+import PortolioPage from './components/pages/Portfolio';
+import ContactPage from './components/pages/Contact';
+import ResumePage from './components/pages/Resume';
 
+import { HashRouter, Route, Routes } from "react-router-dom";
 
-
-
-// In our main App component, we are rendering only single instances of Header, Footer and Navbar and several instances of Card
+// In our main App component, we are rendering only single instances of Header, Footer and Navbar
 function App() {
   return (
+
     <div>
-      <Header />
-      <Nav />
-      <Card />
-      <Card />
-      <Footer />
+      <HashRouter>
+        <Header />
+        <Navbar />
+        {/* This router controls which page is displayed */}
+        <Routes>
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/portfolio" element={<PortolioPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+        <Footer />
+      </HashRouter>
     </div>
   );
 }

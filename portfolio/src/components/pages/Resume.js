@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       <p>
-      Can I import my resume as a pdf?
+      dccccccccc
       </p>
     </div>
   );

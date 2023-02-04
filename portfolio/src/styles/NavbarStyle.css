@@ -6,13 +6,13 @@
   --text: #333333;
   } 
 
-.nav {
+.navbar {
   background: var(--MC);
   height: 50px;
   text-align: center; 
 }
 
-.nav li {
+.nav-item {
   color: var(--accent1);
   text-align: center; 
 }

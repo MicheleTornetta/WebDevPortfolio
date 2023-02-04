@@ -160,3 +160,4 @@ You are required to submit BOTH of the following for review:
 
 Sources:
 Navbar creation:  https://react-bootstrap.github.io/components/navbar/
+                  https://getbootstrap.com/docs/4.0/components/navbar/  
