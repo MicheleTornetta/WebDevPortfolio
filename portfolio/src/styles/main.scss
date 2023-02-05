@@ -1,0 +1,65 @@
+.btn-primary {
+    background-color: var(--MC) !important;
+}
+
+/*colors*/
+
+:root {
+    --BG: #FBEEC1;
+    --MC: #659DBD;
+    --accent1: #DAAD86;
+    --accent2: #8D8741;
+    --text: #333333;
+    --white: #ffffff;
+    } 
+    
+    
+    /* GLOBAL HTML ELEMENTS */
+    
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    body {
+        background-color: var(--BG);
+    }
+
+    .inputBox {
+        border: none;
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        -moz-appearance: none;
+        appearance:var(--accent2);
+        background: var(--white);
+        padding: 5px;
+        border-radius: 3px;
+        margin: 0 50px 0 0 50px;
+        width: 40%;
+        font-size: 14px;
+
+    } 
+
+    .form {
+        align-items: center;
+        margin: 0 0 0 50px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%
+    }
+
+    .Comment-box {
+        height: 100px;
+        text-align: center;
+    }
+
+    .ContactMe {
+        text-align: center;
+    }
+
+ 
+ 

@@ -2,23 +2,17 @@ import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../styles/NavbarStyle.css";
-import "../styles/index.css";
+import "../styles/main.scss";
 
 function NavigationMenu({ currentSection }) {
   return (
     <Navbar expand="md">
-      <Container style={{ zIndex: 999 }}>
-        <Navbar.Brand href="#about">
-          <img
-            className="navbar-brand"
-            alt="Icon"
-            src="../images/gradient.png"
-          ></img>
-        </Navbar.Brand>
+      <Container className="navbar-background">
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link ClassName="nav-item"
+          <Nav className="me-auto justify-content-center" style={{width: '100%'}}>
+            <Link
               to="/" 
               // This is a conditional (ternary) operator that checks to see if the current page is 'Home'
               // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'

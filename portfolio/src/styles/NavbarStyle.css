@@ -8,12 +8,18 @@
   --text: #333333;
   } 
 
-
-
 .navbar {
   background: var(--MC);
   height: 80px;
   text-align: center; 
+}
+
+.navbar-background {
+  z-index: 999;
+  /* Overrides bootstrap */
+  max-width: 100%; 
+  text-align: center;
+  background-color: var(--MC);
 }
 
 .navbar-brand {
@@ -22,7 +28,7 @@
   padding: 5px 0 5px 0;
 }
 
-link {
+.nav-link {
   margin: 5px 10px;
   padding: 0 0px 0 0px;
   margin: 0px;
@@ -60,10 +66,6 @@ a:active {
   text-decoration: underline;
 }
 
-img {
-  width: 150px;
-  height: 60px;
-  
-}
+
 
 

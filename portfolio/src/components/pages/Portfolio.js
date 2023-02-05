@@ -11,21 +11,22 @@ export default function Portfolio() {
 
       <h2>My projects</h2>
       <Container>
-        <Row>
+        <Row className="projects">
           <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="image.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Horiseon"
+              image="./images/horiseon.jpg"
+              deployedLink="https://micheletornetta.github.io/code_refractor/"
+              github="https://github.com/MicheleTornetta/portfolio"
             />
           </Col>
           <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="image.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Password Generator"
+              image="./images/PW_Generator1.jpg"
+              text="dddddd"
+              deployedLink="https://micheletornetta.github.io/password-generator/"
+              github="https://github.com/MicheleTornetta/password-generator"
             />
           </Col>
           <Col xs={12} md={6} lg={4}>
