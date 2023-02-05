@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/HeaderStyle.css';
 import '../styles/index.css';
 import background from '../images/mountain.jpg'
+import Logo from '../images/GLWDLogo.png'
 
 
 function Header() {

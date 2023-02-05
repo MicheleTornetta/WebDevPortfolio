@@ -9,7 +9,7 @@ function Footer() {
             </div>
             <div className="card-body">
                 <blockquote className="blockquote mb-0">
-                    <p>Put somthing here</p>
+                    <p></p>
                     <footer className="blockquote-footer">signature<cite title="Source Title">Title</cite></footer>
                 </blockquote>
             </div>
