@@ -2,13 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
-
+import '../styles/cardStyle.css';
 import '../styles/main.scss';
 
 //creating a function to be exported to the Project Component 
 function Project({ title, image, text, deployedLink, github }) {
   return (
-    <Card style={{ width: "18rem", marginBottom: "20px", height: "340px" }}>
+    <Card ClassName="card" style={{ width: "18rem", marginBottom: "20px", height: "350px" }}>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Img as={Image} variant="top" src={image} fluid={true} alt="Project Image"/> 

@@ -6,23 +6,42 @@
   --text: #333333;
   } 
 
-.header h1 {
+h2 {
   margin: 0;
-  padding-top: 75px;
+  padding: 20px;
   text-align: center;
-  color: white;
+  color: var(--text);
   font-size: 3rem;
 }
 
 .card {
-  background-color: var(--text) !important;
+  background-color: var(--white) !important;
   width: 100%; 
-  color: var(--BG);
+  color: var(--text);
 }
 
-.projects-title {
+.btn-primary {
+  display: flex;
+  background-color: var(--MC) !important;
+  justify-content: flex-end;
+  align-items: center;
   text-align: center;
+  margin-top: 5px;
+  width: 200px;
 }
+
+.btn-secondary {
+  display: flex;
+  background-color: var(--text) !important;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  width: 200px;
+}
+
+
+
 
 
 

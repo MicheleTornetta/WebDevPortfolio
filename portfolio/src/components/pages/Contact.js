@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
-import Border from "../../images/mtbluebrdr.png";
 
 export default function Contact() {
   return (
@@ -34,7 +33,7 @@ export default function Contact() {
       </Row>
       <Row>
         <Col>
-          <Button variant="send" className="btn btn-primary">
+          <Button variant="send" className="btnct btn-primary">
             Send
           </Button>
         </Col>
@@ -42,3 +41,4 @@ export default function Contact() {
     </Form>
   );
 }
+

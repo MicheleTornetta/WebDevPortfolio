@@ -17,7 +17,7 @@ function Header() {
         </div>
         <div className="col-8">
             <h1>Michele Tornetta</h1>
-            <h1>Portfolio</h1>
+            <h1>Web Developer</h1>
         </div>
         <div className="col-2">
 

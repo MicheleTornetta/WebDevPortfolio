@@ -14,11 +14,11 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 // In our main App component, we are rendering only single instances of Header, Footer and Navbar
 function App() {
   return (
+    <HashRouter>
+      <Header />
+      <Navbar />
 
-    <div>
-      <HashRouter>
-        <Header />
-        <Navbar />
+      <div className='content'>
         {/* This router controls which page is displayed */}
         <Routes>
           <Route path="/" element={<AboutPage />} />
@@ -26,9 +26,9 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
-        <Footer />
-      </HashRouter>
-    </div>
+      </div>
+      <Footer />
+    </HashRouter>
   );
 }
 

@@ -10,58 +10,64 @@ export default function Portfolio() {
     <div>
       
 
-      <h2 ClassName="projects-title">My projects</h2>
+      <h2 >My projects</h2>
       <Container>
         <Row className="projects">
           <Col xs={12} md={6} lg={4}>
             <Project
               title="Horiseon"
               image="./images/horiseon.jpg"
+              text="Focusing on inbound strategies for lead generation.
+                "
               deployedLink="https://micheletornetta.github.io/code_refractor/"
-              github="https://github.com/MicheleTornetta/portfolio"
+              github="https://github.com/MicheleTornetta/code_refractor"
             />
           </Col>
           <Col xs={12} md={6} lg={4}>
             <Project
               title="Password Generator"
               image="./images/PW_Generator1.jpg"
-              text="dddddd"
+              text="A password that is very secure by generating random letters."
               deployedLink="https://micheletornetta.github.io/password-generator/"
               github="https://github.com/MicheleTornetta/password-generator"
             />
           </Col>
           <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="image.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Web Coding Assessment"
+              image="./images/codingquiz.png"
+              text="Try to answer the coding quiz questions correctly while beating the clock."
+              deployedLink="https://MicheleTornetta.github.io/coding-quiz/"
+              github="https://github.com/MicheleTornetta/coding-quiz"
             />
           </Col>
         </Row>
         <Row>
-          <Col sm={4}>
+          <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="iamge.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Work Day Scheduler"
+              image="./images/wdspic.png"
+              text="Use the Work Day Scheduler to plan out your day."
+              deployedLink="https://micheletornetta.github.io/work-day-scheduler/"
+              github="https://github.com/MicheleTornetta/work-day-scheduler"
             />
           </Col>
-          <Col sm={8}>
+          <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="iamge.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Weather Dashboard"
+              image="./images/dashboardPicture.png"
+              text="The Weather Dashboard provides you with your 5 day weather forecast."
+              deployedLink="https://micheletornetta.github.io/weather-dashboard/"
+              github="https://github.com/MicheleTornetta/weather-dashboard"
             />
           </Col>
-          <Col sm={8}>
+          <Col xs={12} md={6} lg={4}>
             <Project
-              title="WebDevPortolio"
-              image="iamge.png"
-              deployedLink="https://www.google.com/"
-              github="https://www.github.com/MicheleTornetta/"
+              title="Brews & Chews"
+              image="./images/brewsnchewspic.png"
+              text="Brews & Chews is a website designed with both the extrovert and introvert in mind." 
+              deployedLink="https://anthony-furjanic.github.io/brewsandchews/"
+              github="https://github.com/Anthony-Furjanic/brewsandchews"
             />
           </Col>
         </Row>

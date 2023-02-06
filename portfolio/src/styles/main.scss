@@ -1,14 +1,15 @@
-.btn-primary {
+.btnct {
     background-color: var(--MC) !important;
-    display: inline-block;
+    display: grid;  
     text-align: center;
-    width: 70%;
+    justify-content: center;
+    width: 97%;
     margin: 20px;
     
 }
 
 .message {
-    height: 200px;
+    height: 100px;
 }
 
 /*colors*/
@@ -36,7 +37,7 @@
         background-color: var(--BG);
     }
 
-    .inputBox {
+    .form-control {
         border: none;
         -webkit-appearance: none;
         -ms-appearance: none;
@@ -45,10 +46,9 @@
         background: var(--white);
         padding: 5px;
         border-radius: 3px;
-        margin: 0 50px 0 0 50px;
-        width: 40%;
+        margin: 5px;
+        width: 100%;
         font-size: 14px;
-
     } 
 
     .form {
@@ -70,5 +70,5 @@
         text-align: center;
     }
 
- 
+
  
