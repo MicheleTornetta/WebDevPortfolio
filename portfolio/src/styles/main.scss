@@ -1,5 +1,14 @@
 .btn-primary {
     background-color: var(--MC) !important;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    margin: 20px;
+    
+}
+
+.message {
+    height: 200px;
 }
 
 /*colors*/

@@ -5,3 +5,27 @@
     --accent2: #8D8741;
     --text: #333333;
     } 
+
+.bottom {
+    background-color: var(--MC) !important; 
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+
+
+.footerRow {
+    /* width: 100%; */
+}
+
+.widerFooter {
+    text-align: center;
+}
+
+.leftFooter {
+    padding: 0 0 0 0px;
+}
+
+.rightFooter {
+    text-align: right;
+}

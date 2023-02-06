@@ -6,11 +6,6 @@
   --text: #333333;
   } 
 
-.header {
-  background: #f9b713;
-  height: 200px;
-}
-
 .header h1 {
   margin: 0;
   padding-top: 75px;
@@ -18,5 +13,17 @@
   color: white;
   font-size: 3rem;
 }
+
+.card {
+  background-color: var(--text) !important;
+  width: 100%; 
+  color: var(--BG);
+}
+
+.projects-title {
+  text-align: center;
+}
+
+
 
 

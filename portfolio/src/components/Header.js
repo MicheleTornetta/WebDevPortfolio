@@ -2,8 +2,6 @@ import React from 'react';
 // Here we are importing a CSS file 
 import '../styles/HeaderStyle.css';
 import background from '../images/mountain.jpg'
-import Logo from '../images/GLWDLogo.png'
-
 
 function Header() {
   return (
@@ -22,9 +20,7 @@ function Header() {
             <h1>Portfolio</h1>
         </div>
         <div className="col-2">
-          <img className="logo" src={Logo} 
-                alt="GoLive WebDev Logo"
-          />
+
         </div>
       </div>
     </div>

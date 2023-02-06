@@ -3,13 +3,14 @@ import Project from "../ProjectComponent";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "../../styles/cardStyle.css";
 
 export default function Portfolio() {
   return (
     <div>
       
 
-      <h2>My projects</h2>
+      <h2 ClassName="projects-title">My projects</h2>
       <Container>
         <Row className="projects">
           <Col xs={12} md={6} lg={4}>
