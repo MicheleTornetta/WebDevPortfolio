@@ -9,15 +9,18 @@ function Footer() {
     <div className="bottom">
     <Container className="bottom">
         <Row>
-            <Col>Michele Tornetta
+            <Col className="leftFooter" xs={6}>Michele Tornetta
                 <p>Web Developer</p>
             </Col>
-            <Col className="widerFooter" xs={6}>
+            <Col className="rightFooter">
                 <p></p>
                 <a href="https://github.com/MicheleTornetta">GitHub</a></Col>
             <Col className="rightFooter">
                 <p></p>
                 <a href="https://www.linkedin.com/in/micheletornetta/">LinkedIn</a></Col>
+            <Col className="rightFooter">
+                <p></p>
+                <a href="https://www.facebook.com/michele.tornetta">FaceBook</a></Col>
         </Row>
     </Container>
     </div>  
