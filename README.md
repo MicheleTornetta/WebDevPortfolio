@@ -33,6 +33,7 @@ You will be able view several completed projects.  In each project you can see t
 The following web application's appearance and functionality:
 
 ![Portfolio Demonstration](./images/webdevportfolio.png)
+([Watch the video](https://youtu.be/1BXtePU-TKo))
 
 ## License 
 A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.
