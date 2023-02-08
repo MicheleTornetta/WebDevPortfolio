@@ -1,48 +1,43 @@
-import React from "react";
+import React from 'react';
 import "../../styles/main.scss";
+import "../../styles/cardStyle.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
 
-function Contact() {
+
+export default function Contact() {
   return (
-    <div className="container mb-3">
-      <section>
-        <div className="form-group">
-          <label for="FullName">Full Name</label>
-          <input
-            required
-            type="fullname"
-            className="form-control"
-            id="exampleInputFullName"
-          />
-        </div>
-
-        <div className="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input
-            required
-            type="email"
-            className="form-control"
-            id="Email"
-          />
-        </div>
-
-        <div className="form-group">
-          <label for="exampleFormControlMessage">Content</label>
-          <input
-            required
-            className="form-control"
-            id="Content"
-          ></input>
-        </div>
-
-        <button
-          type="submit"
-          className="btnct"
-        >
-          Submit
-        </button>
-      </section>
-    </div>
+    <Form>
+      <Row style={{width: "100%"}}>
+        <Col>
+          <Form.Control placeholder="First name" required/>
+        </Col>
+        <Col>
+          <Form.Control placeholder="Last name" required/>
+        </Col>
+      </Row>
+      <Row style={{width: "100%"}}>
+        <Col>
+          <Form.Control placeholder="Email" required/>
+        </Col>
+      </Row>
+      <Row style={{width: "100%"}}>
+        <Col>
+          <Form.Control placeholder="Subject" required/>
+        </Col>
+      </Row>
+      <Row style={{width: "100%"}}>
+        <Col>
+          <Form.Control className="message" placeholder="Message" required />
+        </Col>
+      </Row>
+      <Row style={{width: "100%"}}>
+        <Col>
+          <Form.Control type='submit' className="btnct" value="Send" /> 
+        </Col>
+      </Row>
+    </Form>
   );
 }
 
-export default Contact;
