@@ -19,7 +19,7 @@ export default function Contact() {
       </Row>
       <Row style={{width: "100%"}}>
         <Col>
-          <Form.Control placeholder="Email" required/>
+          <Form.Control type='email' pattern='^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$' placeholder="Email" required/>
         </Col>
       </Row>
       <Row style={{width: "100%"}}>
