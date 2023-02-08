@@ -45,5 +45,5 @@ Navigation Bar Components:  https://react-bootstrap.github.io/components/navbar/
 
 ## Deployed Link
 
-* Portfolio URL: https://micheletornetta.github.io/WebDevPorfolio/
+* Portfolio URL: https://micheletornetta.github.io/WebDevPortfolio/
 * GitHub repository URL: https://micheletornetta.github.io/WebDevPortfolio/
