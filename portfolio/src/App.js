@@ -15,9 +15,8 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <HashRouter>
-      <Header />
       <Navbar />
-
+      <Header />
       <div className='content'>
         {/* This router controls which page is displayed */}
         <Routes>

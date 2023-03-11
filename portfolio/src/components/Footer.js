@@ -1,16 +1,13 @@
 import React from "react";
 import "../styles/FooterStyle.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
     <div className="bottom">
     <Container className="bottom">
         <Row>
-            <Col className="leftFooter" xs={6}>Michele Tornetta
-                <p>Web Developer</p>
+            <Col className="leftFooter" xs={6}>Michele Tornetta - Web Developer
             </Col>
             <Col className="rightFooter">
                 <p></p>

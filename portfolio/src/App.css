@@ -14,13 +14,13 @@ body, #root {
   flex: 1;
 }
 
-:root {
-    --BG: #FBEEC1;
-    --MC: #659DBD;
-    --accent1: #DAAD86;
-    --accent2: #8D8741;
-    --text: #333333;
-    } 
+/* :root {
+  --BG: #FBEEC1;
+  --MC: #659DBD;
+  --accent1:  #e53658;
+  --accent2: #fee6ed;
+  --text: #333333;
+  }  */
 
 body {
   margin: 0;

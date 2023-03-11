@@ -1,8 +1,5 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import Image from "react-bootstrap/Image";
-import '../styles/cardStyle.css';
+import { Card, Button, Image } from "react-bootstrap";
 import '../styles/main.scss';
 
 //creating a function to be exported to the Project Component 

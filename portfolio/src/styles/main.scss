@@ -5,14 +5,13 @@
 
 /*colors*/
 
-:root {
-    --BG: #FBEEC1;
-    --MC: #659DBD;
-    --accent1: #DAAD86;
-    --accent2: #8D8741;
-    --text: #333333;
-    --white: #ffffff;
-    } 
+    :root {
+        --BG: #FBEEC1;
+        --MC: #659DBD;
+        --accent1:  #e53658;
+        --accent2: #fee6ed;
+        --text: #333333;
+        } 
     
     
     /* GLOBAL HTML ELEMENTS */
@@ -26,6 +25,13 @@
     
     body {
         background-color: var(--BG);
+        background-image: url("../images/cherrybg25.png");
+        // align-self:center; 
+        // justify-self:center;
+        background-repeat: no-repeat;
+        // object-fit: cover;
+        display:flex;
+
     }
 
     .form-control {

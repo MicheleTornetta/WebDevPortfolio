@@ -1,7 +1,7 @@
 import React from 'react';
 // Here we are importing a CSS file 
 import '../styles/HeaderStyle.css';
-import background from '../images/mountain.jpg'
+import background from '../images/cherrybg.png'
 
 function Header() {
   return (
@@ -16,8 +16,7 @@ function Header() {
         <div className="col-2">
         </div>
         <div className="col-8">
-            <h1>Michele Tornetta</h1>
-            <h1>Web Developer</h1>
+            <h1>Michele Tornetta - Web Developer</h1>
         </div>
         <div className="col-2">
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../styles/NavbarStyle.css";
 import "../styles/main.scss";
+import "../styles/NavbarStyle.css";
 
 function NavigationMenu({ currentSection }) {
   return (
@@ -19,7 +19,8 @@ function NavigationMenu({ currentSection }) {
               className={
                 currentSection === "About" ? "nav-link active" : "nav-link"
               }>
-                Home</Link>
+                Home
+            </Link>
             <Link
               to="/portfolio"
               // Check to see if the currentSection is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

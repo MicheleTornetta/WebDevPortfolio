@@ -1,12 +1,12 @@
 
 
-:root {
+/* :root {
   --BG: #FBEEC1;
   --MC: #659DBD;
-  --accent1: #DAAD86;
-  --accent2: #8D8741;
+  --accent1:  #e53658;
+  --accent2: #fee6ed;
   --text: #333333;
-  } 
+  }  */
 
 .navbar {
   background: var(--MC);
@@ -19,7 +19,7 @@
   /* Overrides bootstrap */
   max-width: 100%; 
   text-align: center;
-  background-color: var(--MC);
+  /* background-color: var(--MC); */
 }
 
 .navbar-brand {
@@ -32,11 +32,11 @@
   margin: 5px 10px;
   padding: 0 0px 0 0px;
   margin: 0px;
-  font-size: 20px;
+  font-size: 30px;
   /* list-style-type: none; */
-  background-color: var(--accent1);
-  color: var(--accent2);
-  text-shadow: 5px px #333333;
+  /* background-color: var(--accent2); */
+  color: var(--accent1);
+  /* text-shadow: 5px px #333333; */
 }
 
 
@@ -49,14 +49,14 @@ a:link {
 }
 
 a:visited {
-  color: var(--accent1);
+  color: var(--accent2);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent2);
-  background-color: transparent;
+  color: var(--accent1);
+  background-color: var(--accent2);
   text-decoration: underline;
 }
 

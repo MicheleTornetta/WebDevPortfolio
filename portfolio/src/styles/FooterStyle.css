@@ -1,10 +1,10 @@
-:root {
+/* :root {
     --BG: #FBEEC1;
     --MC: #659DBD;
     --accent1: #DAAD86;
-    --accent2: #8D8741;
+    --accent2: #E53658;;
     --text: #333333;
-    } 
+    }  */
 
 .bottom {
     background-color: var(--MC) !important; 

@@ -1,8 +1,6 @@
 import React from "react";
 import Project from "../ProjectComponent";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 import "../../styles/cardStyle.css";
 
 export default function Portfolio() {
