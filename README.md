@@ -26,15 +26,6 @@ When the employer wants to learn more, that employer can click on the link to my
 
 Finally the empoyer can click on the contact section and fill out the contact form.
 
-## Mock-Up
-
-You will be able view several completed projects.  In each project you can see that each site is designed to be used on a variety of media types. 
-
-The following web application's appearance and functionality:
-
-![Portfolio Demonstration](../images/webdevportfolio.png)
-([Watch the video](https://youtu.be/1BXtePU-TKo))
-
 ## License 
 A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.
 
