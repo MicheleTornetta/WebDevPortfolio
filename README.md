@@ -32,7 +32,7 @@ You will be able view several completed projects.  In each project you can see t
 
 The following web application's appearance and functionality:
 
-![Portfolio Demonstration](./images/webdevportfolio.png)
+![Portfolio Demonstration](../images/webdevportfolio.png)
 ([Watch the video](https://youtu.be/1BXtePU-TKo))
 
 ## License 
