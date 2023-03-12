@@ -1,30 +1,36 @@
 import React from "react";
 import "../styles/FooterStyle.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
     <div className="bottom">
-    <Container className="bottom">
+      <Container className="bottom">
         <Row>
-            <Col className="leftFooter" xs={6}>Michele Tornetta
-                <p>Web Developer</p>
-            </Col>
-            <Col className="rightFooter">
-                <p></p>
-                <a href="https://github.com/MicheleTornetta">GitHub</a></Col>
-            <Col className="rightFooter">
-                <p></p>
-                <a href="https://www.linkedin.com/in/micheletornetta/">LinkedIn</a></Col>
-            <Col className="rightFooter">
-                <p></p>
-                <a href="https://www.facebook.com/michele.tornetta">FaceBook</a></Col>
+          <Col className="leftFooter" xs={6}>
+            Michele Tornetta - Web Developer
+          </Col>
+          <Col className="rightFooter">
+            <a
+              href="https://github.com/MicheleTornetta"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </Col>
+          <Col className="rightFooter">
+            <a
+              href="https://www.linkedin.com/in/micheletornetta/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </Col>
         </Row>
-    </Container>
-    </div>  
-
+      </Container>
+    </div>
   );
 }
 export default Footer;

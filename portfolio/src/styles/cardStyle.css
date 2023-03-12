@@ -1,12 +1,12 @@
-:root {
+/* :root {
   --BG: #FBEEC1;
   --MC: #659DBD;
   --accent1: #DAAD86;
-  --accent2: #8D8741;
+  --accent2: #E53658;;
   --text: #333333;
-  } 
+  }  */
 
-h2 {
+/* h2 {
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -20,15 +20,14 @@ h3 {
   text-align: center;
   color: var(--text);
   font-size: 2rem;
-}
+} */
 
 .card {
-  background-color: var(--white) !important;
+  background-color: var(--accent2) !important;
   width: 100%; 
-  color: var(--text);
 }
 
-.btn-primary {
+/* .btn-primary {
   display: flex;
   background-color: var(--MC) !important;
   justify-content: flex-end;
@@ -46,9 +45,9 @@ h3 {
   text-align: center;
   margin-top: 5px;
   width: 200px;
-}
+} */
 
-.btnct {
+/* .btnct {
   background-color: var(--MC) !important;
   display: grid;  
   text-align: center;
@@ -57,7 +56,7 @@ h3 {
   width: 50%;
   margin: 10px 0 10px 5px;
 
-}
+} */
 
 
 

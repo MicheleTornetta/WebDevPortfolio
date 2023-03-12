@@ -10,24 +10,15 @@ body, #root {
   flex-direction: column;
 }
 
-.content {
-  flex: 1;
-}
-
-:root {
-    --BG: #FBEEC1;
-    --MC: #659DBD;
-    --accent1: #DAAD86;
-    --accent2: #8D8741;
-    --text: #333333;
-    } 
-
 body {
   margin: 0;
   padding: 0;
 }
 
+.content {
+  flex: 1;
+}
+
 .profilepic {
     height: 100px;
-  
-  }
+}

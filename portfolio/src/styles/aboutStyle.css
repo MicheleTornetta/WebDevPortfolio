@@ -1,0 +1,6 @@
+.profilepic {
+    height: 200px;
+    /* justify-self:last baseline; */
+    justify-items: end;
+    /* flex-wrap:wrap; */
+}

@@ -9,15 +9,15 @@ import PortolioPage from './components/pages/Portfolio';
 import ContactPage from './components/pages/Contact';
 import ResumePage from './components/pages/Resume';
 
+
 import { HashRouter, Route, Routes } from "react-router-dom";
 
 // In our main App component, we are rendering only single instances of Header, Footer and Navbar
 function App() {
   return (
     <HashRouter>
-      <Header />
       <Navbar />
-
+      <Header />
       <div className='content'>
         {/* This router controls which page is displayed */}
         <Routes>

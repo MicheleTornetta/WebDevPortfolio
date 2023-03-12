@@ -1,18 +1,17 @@
 
-.message {
-    height: 100px;
-}
+// .message {
+//     height: 100px;
+// }
 
 /*colors*/
 
-:root {
-    --BG: #FBEEC1;
-    --MC: #659DBD;
-    --accent1: #DAAD86;
-    --accent2: #8D8741;
-    --text: #333333;
-    --white: #ffffff;
-    } 
+    :root {
+        --BG: #ffffff;
+        --MC: #0b3b57;
+        --accent1:  #e53658;
+        --accent2: #fee6ed;
+        --text: #333333;
+        } 
     
     
     /* GLOBAL HTML ELEMENTS */
@@ -21,55 +20,131 @@
         box-sizing: border-box;
         padding: 0px;
         margin: 0px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Questrial', sans-serif;
     }
     
     body {
         background-color: var(--BG);
+        background-image: url("../images/cherrybg25.png");
+        // align-self:center; 
+        // justify-self:center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display:flex;
+        @import url('https://fonts.googleapis.com/css?family=Questrial');
+        font-size: 1.15rem;
     }
 
-    .form-control {
-        border: none;
-        -webkit-appearance: none;
-        -ms-appearance: none;
-        -moz-appearance: none;
-        appearance:var(--accent2);
-        background: var(--white);
-        padding: 5px;
-        border-radius: 3px;
-        margin: 5px;
-        width: 100%;
-        font-size: 14px;
-    } 
+    // .form-control {
+    //     //border: none;
+    //     -webkit-appearance: none;
+    //     -ms-appearance: none;
+    //     -moz-appearance: none;
+    //     appearance: var(--accent1)!important;
+    //     background-color: var(--BG) !important;
+    //     padding: 5px;
+    //     border-radius: 5px;
+    //     margin: 10px;
+    //     width: 100%;
+    //     font-size: 14px;
+    //     color: var(--accent2);
+    // } 
 
-    .form {
-        align-items: center;
-        margin: 0 0 0 50px;
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
+    // .form {
+    //     align-items: center;
+    //     margin: 0 0 0 50px;
+    //     display: inline-block;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     text-align: center;
+    //     width: 100%
+    // }
+
+    // .Comment-box {
+    //     height: 100px;
+    //     text-align: center;
+    // }
+
+    // .ContactMe {
+    //     text-align: center;
+    // }
+
+    // .resume {
+    //     color: var(--MC)!important; 
+    //     background-color: transparent;
+    //     text-decoration: none;
+    //     margin-right: 20px;
+    //     margin-left: 20px;
+    //     text-align: center;
+    //     font-size: 40px;
+    // }
+
+    h1 {
+        margin: 0;
+        padding: 20px;
         text-align: center;
-        width: 100%
+        color: var(--text);
+        font-size: 4rem;
     }
 
-    .Comment-box {
-        height: 100px;
+    h2 {
+        margin: 0;
+        padding: 20px;
         text-align: center;
-    }
-
-    .ContactMe {
+        color: var(--text);
+        font-size: 3rem;
+      }
+      
+      h3 {
+        margin: 0;
+        padding: 20px;
         text-align: center;
-    }
+        color: var(--text);
+        font-size: 2rem;
+      }
 
-    .resume {
-        color: var(--MC)!important; 
-        background-color: transparent;
-        text-decoration: none;
-        margin-right: 20px;
-        margin-left: 20px;
+    h4 {
+        margin: 0;
+        padding: 20px;
         text-align: center;
-        font-size: 40px;
+        color: var(--text);
+        font-size: 1rem;
     }
 
 
+    .container {
+        flex: 1;
+    }
  
+    //buttons
+
+    .btn-primary {
+        display: flex;
+        background-color: var(--MC) !important;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+        width: 200px;
+      }
+      
+      .btn-secondary {
+        display: flex;
+        background-color: var(--text) !important;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+        width: 200px;
+      }
+
+      .btnct {
+        background-color: var(--MC) !important;
+        display: grid;  
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 10px 0 10px 5px;
+      
+      }

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+// import "../styles/main.scss";
 import "../styles/NavbarStyle.css";
-import "../styles/main.scss";
 
 function NavigationMenu({ currentSection }) {
   return (
@@ -10,7 +10,7 @@ function NavigationMenu({ currentSection }) {
       <Container className="navbar-background">
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className="nav-collapse" id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center" style={{width: '100%'}}>
             <Link
               to="/" 
@@ -19,7 +19,8 @@ function NavigationMenu({ currentSection }) {
               className={
                 currentSection === "About" ? "nav-link active" : "nav-link"
               }>
-                Home</Link>
+                Home
+            </Link>
             <Link
               to="/portfolio"
               // Check to see if the currentSection is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

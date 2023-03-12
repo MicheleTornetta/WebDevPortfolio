@@ -1,26 +1,31 @@
 import React from 'react';
+import { Container, Col, Row } from "react-bootstrap";
 import Portrait from '../../images/mtbluebrdr.png';
+import "../../styles/main.scss";
+import "../../styles/aboutStyle.css";
 
 export default function About() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-3">
+    <div>
+    <Container className="container">
+      <Row className="row">
+        <Col className="col-2">
           <img src={Portrait} 
                 className="profilepic"
                 alt="Michele Tornetta"
           />
-        </div>
-        <div className="col-9">  
+        </Col>
+        <Col className="col-10">  
           <h1>About Me</h1>
             <p>
-            I have a background in online marketing. Part of my marketing experience would include developing html4 email templates (since outlook doesn't like CSS) for email campaigns I designed. When designing a layout, it was important to stay true to the hospital system's branding.
+            My passion for web development and coding began when working as a Marketing Director.  It was important write and style html for specific hospital systems and their branding guidelines to include colors, fonts and even image placement.  
             </p>
             <p>
-            When I was promoted to Marketing Director, I worked with creative designers who could also create email templates. However, due to the length of time going back and forth and some hard deadlines, I decided to teach myself html 4, photoshop, InDesign and other programs to do the work in-house.
+            For years I thought Web Development was nothing but a dream.  As a single mom, going back to college to learn coding just wasn't practicle. Then I was intruduced to the Uninversity of Pennsylvania Full Stack Web Dev Bootcamp, giving me the opportunity to pursue my passion.
             </p>
-        </div>
-      </div>
+        </Col>
+      </Row>
+    </Container>
     </div>
   );
 }
