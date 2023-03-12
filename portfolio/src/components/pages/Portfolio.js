@@ -2,21 +2,19 @@ import React from "react";
 import Project from "../ProjectComponent";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../styles/cardStyle.css";
+import "../../styles/main.scss";
 
 export default function Portfolio() {
   return (
     <div>
-      
-
-      <h2 >My projects</h2>
+      <h2>My projects</h2>
       <Container>
         <Row className="projects">
           <Col xs={12} md={6} lg={4}>
             <Project
               title="Horiseon"
               image="./images/horiseon.jpg"
-              text="Focusing on inbound strategies for lead generation.
-                "
+              text="Focusing on inbound strategies for lead generation."
               deployedLink="https://micheletornetta.github.io/code_refractor/"
               github="https://github.com/MicheleTornetta/code_refractor"
             />
@@ -66,6 +64,15 @@ export default function Portfolio() {
               text="Brews & Chews is a website designed with both the extrovert and introvert in mind." 
               deployedLink="https://anthony-furjanic.github.io/brewsandchews/"
               github="https://github.com/Anthony-Furjanic/brewsandchews"
+            />
+          </Col>
+          <Col xs={12} md={6} lg={4}>
+            <Project
+              title="Grrrr'inder"
+              image="./images/grrrrinder2.png"
+              text="Grrrr'inder is an alternative to traditional dog parks." 
+              deployedLink="https://grrrrinder2.herokuapp.com/"
+              github="https://github.com/SamanthaJaneDavidson/grrrrinder2"
             />
           </Col>
         </Row>

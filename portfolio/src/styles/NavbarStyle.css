@@ -1,13 +1,5 @@
 
 
-/* :root {
-  --BG: #FBEEC1;
-  --MC: #659DBD;
-  --accent1:  #e53658;
-  --accent2: #fee6ed;
-  --text: #333333;
-  }  */
-
 .navbar {
   background: var(--MC);
   height: 80px;
@@ -20,6 +12,12 @@
   max-width: 100%; 
   text-align: center;
   /* background-color: var(--MC); */
+}
+
+.nav-collapse {
+  background-color: var(--MC);
+  color: var(--accent2);
+
 }
 
 .navbar-brand {
@@ -62,7 +60,7 @@ a:hover {
 
 a:active {
   color: var(--accent2);
-  background-color: var(--text);
+  background-color: var(--accent1);
   text-decoration: underline;
 }
 

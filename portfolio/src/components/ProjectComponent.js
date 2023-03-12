@@ -5,7 +5,7 @@ import '../styles/main.scss';
 //creating a function to be exported to the Project Component 
 function Project({ title, image, text, deployedLink, github }) {
   return (
-    <Card ClassName="card" style={{ width: "18rem", marginBottom: "20px", height: "350px" }}>
+    <Card ClassName="card" style={{ width: "18rem", marginBottom: "20px", height: "400px" }}>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Img as={Image} variant="top" src={image} fluid={true} alt="Project Image"/> 

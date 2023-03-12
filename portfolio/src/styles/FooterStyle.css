@@ -9,13 +9,13 @@
 .bottom {
     background-color: var(--MC) !important; 
     width: 100%;
-    padding: 20px 0 0 0;
+    padding: 10px 0;
 }
 
 
 
 .footerRow {
-    /* width: 100%; */
+    width: 100%; 
 }
 
 .widerFooter {
@@ -24,8 +24,10 @@
 
 .leftFooter {
     padding: 0 0 0 0px;
+    color: var(--accent2)
 }
 
 .rightFooter {
     text-align: right;
+    padding: 0 0 0 0px;
 }

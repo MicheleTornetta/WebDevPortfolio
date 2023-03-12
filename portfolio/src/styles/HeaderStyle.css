@@ -9,6 +9,7 @@
 .header {
   background-color: var(--BG);
   height: 200px;
+  margin: 0 0 10px 0
 }
 
 .header h1 {
@@ -25,12 +26,6 @@
   margin: 5px 0 0 -40px;
 }
 
-/* .logo {
-  height: 50px;
-  width: 100px;
-  float: right;
-  margin: 25px 0 0 0;
-} */
 
 
 

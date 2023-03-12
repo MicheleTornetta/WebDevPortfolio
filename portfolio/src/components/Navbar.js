@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../styles/main.scss";
+// import "../styles/main.scss";
 import "../styles/NavbarStyle.css";
 
 function NavigationMenu({ currentSection }) {
@@ -10,7 +10,7 @@ function NavigationMenu({ currentSection }) {
       <Container className="navbar-background">
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className="nav-collapse" id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center" style={{width: '100%'}}>
             <Link
               to="/" 

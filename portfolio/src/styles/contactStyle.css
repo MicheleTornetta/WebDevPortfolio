@@ -1,0 +1,76 @@
+.form-control {
+    /* border: none; */
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: var(--accent1)!important;
+    background-color: var(--BG) !important;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: var(--accent2);
+} 
+
+.form {
+    align-items: center;
+    margin: 0 0 0 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%
+}
+
+.Comment-box {
+    height: 100px;
+    text-align: center;
+}
+
+.ContactMe {
+    text-align: center;
+}
+
+.message {
+    height: 100px;
+}
+
+/* .card {
+    background-color: var(--accent2) !important;
+    width: 100%; 
+  } */
+
+  /* Button styling */
+  
+  /* .btn-primary {
+    display: flex;
+    background-color: var(--MC) !important;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+  }
+  
+  .btn-secondary {
+    display: flex;
+    background-color: var(--text) !important;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+  } */
+  
+  .btnct {
+    background-color: var(--MC) !important;
+    display: grid;  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0 10px 5px;
+  
+  }
+
