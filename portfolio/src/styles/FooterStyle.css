@@ -6,6 +6,7 @@
 
 .footerRow {
     width: 100%; 
+
 }
 
 .widerFooter {
@@ -14,10 +15,12 @@
 
 .leftFooter {
     padding: 0 0 0 0px;
-    color: var(--accent2)
+    color: var(--accent2);
+    font-size: 1.5rem;
 }
 
 .rightFooter {
     text-align: right;
     padding: 0 0 0 0px;
+    font-size: 1.5rem;
 }

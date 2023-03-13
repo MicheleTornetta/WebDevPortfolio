@@ -28,7 +28,7 @@
 .upenn h4 p {
   color: var(--accent2) !important;
   margin: 0;
-  padding: 20px 0 0px 0;
+  padding: 20px 0 0px 0 !important; 
   text-align: center;
   font-size: 1.5rem;
 }
@@ -67,4 +67,12 @@ ul {
 
 .title {
   font-weight: bold;
+}
+
+.row h3 {
+    padding: 0 0 0px 0 !important;
+}
+
+.row h4 {
+    padding: 20px 0 20px 0 !important;
 }

@@ -9,9 +9,8 @@ export default function Resume() {
     <Container fluid className="container">
       <Row className="row">
         <h3>Resume</h3>
-      </Row>
-
-      <Row>
+      </Row >
+      <Row className="row">
         <Col>
           <h4>Lebanon, PA 17042 | 717-708-0618 | mlt@pwahsolutions.com </h4>
           <h3 className="skills">
@@ -21,8 +20,7 @@ export default function Resume() {
             <p>
               Front-end web developer with a background in marketing, giving a
               unique perspective of how a well developed web application should
-              encourage the end-user to interact with a website and software
-              application.
+              encourage the end-user to interact with your website.
             </p>
           </Row>
           <Row className="upenn">
