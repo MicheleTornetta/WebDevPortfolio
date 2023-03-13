@@ -1,10 +1,3 @@
-/* :root {
-  --BG: #FBEEC1;
-  --MC: #659DBD;
-  --accent1: #DAAD86;
-  --accent2: #E53658;;
-  --text: #333333;
-  }  */
 
 .header {
   background-color: var(--BG);

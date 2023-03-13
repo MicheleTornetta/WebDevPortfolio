@@ -1,62 +1,8 @@
-/* :root {
-  --BG: #FBEEC1;
-  --MC: #659DBD;
-  --accent1: #DAAD86;
-  --accent2: #E53658;;
-  --text: #333333;
-  }  */
-
-/* h2 {
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-  color: var(--text);
-  font-size: 3rem;
-}
-
-h3 {
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-  color: var(--text);
-  font-size: 2rem;
-} */
-
 .card {
   background-color: var(--accent2) !important;
   width: 100%; 
 }
 
-/* .btn-primary {
-  display: flex;
-  background-color: var(--MC) !important;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
-  margin-top: 5px;
-  width: 200px;
-}
-
-.btn-secondary {
-  display: flex;
-  background-color: var(--text) !important;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
-  margin-top: 5px;
-  width: 200px;
-} */
-
-/* .btnct {
-  background-color: var(--MC) !important;
-  display: grid;  
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 10px 0 10px 5px;
-
-} */
 
 
 

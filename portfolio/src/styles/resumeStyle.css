@@ -1,59 +1,70 @@
 .resume {
-    color: var(--MC)!important; 
-    background-color: transparent;
-    text-decoration: none;
-    margin-right: 20px;
-    margin-left: 20px;
-    text-align: center;
-    font-size: 1.5rem;
+  color: var(--MC) !important;
+  background-color: transparent;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /* title background */
 
-.upenn{
-    background-color: var(--MC);
-    opacity: .8;
+.upenn {
+  background-color: var(--MC);
+  opacity: 0.8;
 }
 
 /* titles */
 
 .upenn h4 {
-    color: var(--accent2) !important; 
-    margin: 0;
-    padding: 20px 0 20px 0;
-    text-align: center;
-    font-size: 1.5rem;
+  color: var(--accent2) !important;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .upenn h4 p {
-    color: var(--accent2) !important; 
-    margin: 0;
-    padding: 20px 0 0px 0;
-    text-align: center;
-    font-size: 1.5rem;
+  color: var(--accent2) !important;
+  margin: 0;
+  padding: 20px 0 0px 0;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .skills h4 {
-    color: var(--text) !important; 
-    margin: 0;
-    padding: 20px 0 5px 0;
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: bolder;
+  color: var(--text) !important;
+  margin: 0;
+  padding: 20px 0 5px 0;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bolder;
 }
 
 .rightJustified {
-    text-align: right;
+  text-align: right;
 }
 
 /* skills list */
 
 ul {
-    list-style-type: none;
-    text-align: start;
-  }
+  list-style-type: none;
+  /* text-align: start; */
+}
 
-  .title {
-    font-weight: bold;
-  }
+.ulLeft {
+    text-align: right;
+}
 
+.ulCenter {
+    text-align: Center;
+}
+
+.ulRight {
+    text-align: left;
+}
+
+.title {
+  font-weight: bold;
+}

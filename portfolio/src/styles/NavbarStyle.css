@@ -40,12 +40,8 @@
   padding: 0 0px 0 0px;
   margin: 0px;
   font-size: 30px;
-  /* list-style-type: none; */
-  /* background-color: var(--accent2); */
   color: var(--accent1);
-  /* text-shadow: 5px px #333333; */
 }
-
 
 a:link {
   color: var(--BG);

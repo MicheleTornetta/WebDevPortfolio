@@ -31,12 +31,6 @@ export default function Resume() {
                 University of Pennsylvania WebDev Bootcamp - Philadelphia, PA
                 <p>Certificate in Full Stack - Final Grade 99.45%</p>
               </h4>
-              {/* <Image
-              src={Bar} 
-              className="img-fluid" 
-              style={{ opacity: "0.9", height:"10px" }} 
-              alt="divider bar"
-            /> */}
             </Col>
           </Row>
           {/* Skills */}
@@ -45,11 +39,15 @@ export default function Resume() {
           </Row>
           <Row>
             <Col>
-              <ul>
+              <ul className='ulLeft'>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>Bootstrap</li>
+              </ul>
+            </Col>
+            <Col>
+              <ul className='ulCenter'>
                 <li>RESTful APIs</li>
                 <li>React</li>
                 <li>Handlebars</li>
@@ -57,7 +55,7 @@ export default function Resume() {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'>
                 <li>VS Code</li>
                 <li>GitHub</li>
                 <li>Git</li>
@@ -65,10 +63,14 @@ export default function Resume() {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'>
                 <li>Node.js</li>
                 <li>MySql</li>
                 <li>NoSQL</li>
+              </ul>
+            </Col>
+            <Col>
+              <ul className='ulRight'>
                 <li>Express</li>
                 <li>Mongo</li>
                 <li>Grapql</li>
@@ -80,7 +82,7 @@ export default function Resume() {
           </Row>
           <Row>
             <Col>
-              <ul>
+              <ul className='ulLeft'>
                 <li>Digital - Email</li>
                 <li>Social Media</li>
                 <li>Database Segmentation</li>
@@ -88,7 +90,7 @@ export default function Resume() {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'> 
                 <li>Copywriting</li>
                 <li>Research</li>
                 <li>SEO</li>
@@ -96,7 +98,7 @@ export default function Resume() {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'>
                 <li>Promotion Implementation</li>
                 <li>Database Management</li>
                 <li>Tech Support</li>
@@ -104,7 +106,7 @@ export default function Resume() {
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulRight'>
                 <li>Graphic Design</li>
                 <li>Email Template Design</li>
                 <li>Banners</li>
@@ -117,27 +119,27 @@ export default function Resume() {
           </Row>
           <Row>
             <Col>
-              <ul>
+              <ul className='ulLeft'>
                 <li>Marketind Director</li>
                 <li>Sales & Customer Serivce Supervisor</li>
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'>
                 <li>Recruitment</li>
                 <li>Training</li>
                 <li>Mentoring</li>
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulCenter'>
                 <li>Develop SOPs</li>
                 <li>Increase Workflow Efficiencies</li>
                 <li>Strategic Planning</li>
               </ul>
             </Col>
             <Col>
-              <ul>
+              <ul className='ulRight'>
                 <li>Project Management</li>
                 <li>Problem Solving</li>
               </ul>
