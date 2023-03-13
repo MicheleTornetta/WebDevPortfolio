@@ -9,7 +9,7 @@ function NavigationMenu({ currentSection }) {
     <Navbar expand="md">
       <Container className="navbar-background">
         
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light" />
         <Navbar.Collapse className="nav-collapse" id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center" style={{width: '100%'}}>
             <Link

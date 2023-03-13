@@ -9,13 +9,13 @@ export default function About() {
     <div>
     <Container className="container">
       <Row className="row">
-        <Col className="col-2">
+        <Col lg={2} style={{textAlign: 'center'}}>
           <img src={Portrait} 
                 className="profilepic"
                 alt="Michele Tornetta"
           />
         </Col>
-        <Col className="col-10">  
+        <Col lg={10}>  
           <h1>About Me</h1>
             <p>
             My passion for web development and coding began when working as a Marketing Director.  It was important write and style html for specific hospital systems and their branding guidelines to include colors, fonts and even image placement.  

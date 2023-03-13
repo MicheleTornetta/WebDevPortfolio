@@ -7,14 +7,7 @@ import "../styles/HeaderStyle.css";
 
 function Header() {
   return (
-    <header
-      className="header"
-      style={{
-        marginTop: "0px",
-        height: "100px",
-        fontSize: "50px",
-      }}
-    >
+    <header className="header">
       <div className="container">
         <div className="row">
           <div className="col-1"></div>
