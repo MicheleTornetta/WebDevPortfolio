@@ -5,6 +5,8 @@ import "../../styles/contactStyle.css";
 import { Row, Col, Form } from 'react-bootstrap';
 // import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { confirmAlert } from 'react-confirm-alert'; // Import
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 
 const emailConfig = {
   serviceID: "service_09za52g",
@@ -13,19 +15,39 @@ const emailConfig = {
 };
 
 export default function Contact(props) {
-  // const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(e);
-
     // e.target is the form element
     emailjs.sendForm(emailConfig.serviceID, emailConfig.templateID, e.target, emailConfig.publicKey)
-      .then((result) => {
-          console.log(result.text);
+      .then(() => {
+        for (const formElement of document.getElementsByClassName('form-control')) {
+          if (formElement.type !== 'submit') {
+            formElement.value = '';
+          }
+        }
+
+        confirmAlert({
+          title: 'Email Sent!',
+          message: 'You should receive a confirmation email shortly.',
+          buttons: [
+            {
+              label: 'Awesome 🤙',
+              onClick: () => {}
+            }
+          ]
+        });
       }, (error) => {
-          console.log(error.text);
+        confirmAlert({
+          title: 'Failed to send email!',
+          message: `Something went wrong... ${error}.`,
+          buttons: [
+            {
+              label: 'Darn',
+              onClick: () => {}
+            }
+          ]
+        });
       });
   };
 
