@@ -13,6 +13,7 @@
 .upenn {
   background-color: var(--MC);
   opacity: 0.8;
+  border: var(--text) 10px;
 }
 
 /* titles */

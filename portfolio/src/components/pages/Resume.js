@@ -145,7 +145,7 @@ export default function Resume() {
           </Row>
           <Row className="upenn">
             <Col>
-              <h4>Professional Experience</h4>
+              <h4 style={{padding: '20 0 0 0'}}>Professional Experience</h4>
             </Col>
           </Row>
           <Row>
