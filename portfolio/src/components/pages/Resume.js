@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import MyResume from "./MyResume.pdf";
+import TornettaMicheleResume from "./TornettaMicheleResume.pdf";
 import "../../styles/resumeStyle.css";
 // import Bar from "../../images/bar.png";
 
@@ -333,7 +333,7 @@ export default function Resume() {
       </Row>
       <div></div>
       <Row>
-        <a href={MyResume} download className="resume">
+        <a href={TornettaMicheleResume} download className="resume">
           Click to download my Resume
         </a>
       </Row>

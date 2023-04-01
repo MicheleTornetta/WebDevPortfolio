@@ -1,9 +1,7 @@
 import React from "react";
 import "../../styles/main.scss";
 import "../../styles/contactStyle.css";
-// import "../../styles/cardStyle.css";
 import { Row, Col, Form } from 'react-bootstrap';
-// import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
