@@ -333,7 +333,7 @@ export default function Resume() {
       </Row>
       <div></div>
       <Row>
-        <a href={TornettaMicheleResume} download className="resume">
+        <a href={Michele_Tornetta_Resume.pdf} download className="resume">
           Click to download my Resume
         </a>
       </Row>
